@@ -14,7 +14,7 @@
         "illuminate/support": "4.*",
         "illuminate/view": "4.*",
         "dflydev/markdown": "dev-master",
-        "kennedytedesco/laravel-markdown": "dev-master",
+        "kennedytedesco/laravel-markdown": "dev-master"
     },
     "autoload": {
         "classmap":[
