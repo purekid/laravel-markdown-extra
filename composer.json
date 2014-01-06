@@ -1,0 +1,25 @@
+{
+    "name": "purekid/laravel-markdown-extra",
+    "description": "Extra Markdown View Engine for Laravel 4 View system ",
+    "keywords": ["markdown", "laravel"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "michael.gan",
+            "email": "gc1108960@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0",
+        "illuminate/support": "4.*",
+        "illuminate/view": "4.*",
+        "dflydev/markdown": "dev-master"
+        "kennedytedesco/laravel-markdown": "dev-master",
+    },
+    "autoload": {
+        "classmap":[
+            "src/"
+        ]
+    },
+    "minimum-stability": "dev"
+}
