@@ -21,6 +21,8 @@ Run `composer update` to pull down the latest version of Laravel Markdown. Now o
 
 ## Usage
 
+`Support *.md , *.md.php , *.md.blade.php`
+
 Create a view file named foobar.md, foobar.md.php or foobar.md.blade.php then use it like normal:
 
-    return View::make('foobar');
+return View::make('foobar');
