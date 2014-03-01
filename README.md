@@ -1,6 +1,8 @@
 # Laravel Markdown Extra
 
-Laravel Markdown is a wrapper of dflydev/markdown which integrates it into Laravel's View engine. It supports markdown-extra  parsing, php preprocessing of markdown files, and blade preprocessing.
+This project is copied from https://github.com/Kindari/laravel-markdown , add support for markdown extra , such as 'table' syntax. 
+
+Laravel Markdown is a wrapper of dflydev/markdown which integrates it into Laravel's View engine. It supports markdown  parsing, php preprocessing of markdown files, and blade preprocessing.
 
 ## Installation
 
