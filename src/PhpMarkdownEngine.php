@@ -24,7 +24,7 @@ class PhpMarkdownEngine extends PhpEngine
 	public function get($path, array $data = array())
 	{
 		$contents = $this->evaluatePath($path, $data);
-		return $this->parser->transformExtra( $contents );
+		return $this->parser->transformExtra( $contents, false );
 	}
 
 
