@@ -17,7 +17,7 @@ class BladeMarkdownEngine extends CompilerEngine
 	public function get($path, array $data = array())
 	{
 		$contents = parent::get($path, $data);
-		return $this->parser->transformExtra( $contents );
+		return $this->parser->transformExtra( $contents, false );
 	}
 
 }
