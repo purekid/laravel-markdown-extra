@@ -13,7 +13,7 @@ class MarkdownServiceProvider extends ServiceProvider {
 	{
 		list($app, $view) = array($this->app, $this->app['view']);
 
-		$app->singleton('markdown', 'Purekid\Markdown\Markdown');
+		$app->singleton('markdown', 'Purekid\LaravelMarkdownExtra\Markdown\Markdown');
 
 		$view->addExtension('md', 'markdown', function() use ($app) {
 			return new MarkdownEngine($app['markdown']);
